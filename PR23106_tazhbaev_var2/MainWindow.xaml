@@ -1,0 +1,21 @@
+﻿<Window x:Class="PR23106_tazhbaev_var2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PR23106_tazhbaev_var2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Тажбаев Тимур, Вариант 2" HorizontalAlignment="Center" Margin="0,24,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Label Content="Введите текст на английском:" HorizontalAlignment="Left" Margin="30,104,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <TextBox x:Name="textAll" HorizontalAlignment="Center" Margin="0,140,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="730" FontSize="16"/>
+        <Label Content="Количество гласных букв:" HorizontalAlignment="Left" Margin="30,225,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Самое длинное слово:" HorizontalAlignment="Left" Margin="30,261,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="glWords" Content="" HorizontalAlignment="Left" Margin="234,225,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label x:Name="dlWord" Content="" HorizontalAlignment="Left" Margin="210,261,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button Content="Вычислить" HorizontalAlignment="Left" Margin="35,183,0,0" VerticalAlignment="Top" FontSize="16" Click="Button_Click" Width="95"/>
+        <Label x:Name="errorText" Content="" HorizontalAlignment="Left" Margin="30,297,0,0" VerticalAlignment="Top" FontSize="16"/>
+
+    </Grid>
+</Window>
